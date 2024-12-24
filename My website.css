@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+    margin: 20px 0 10px;
+    color: #2c3e50;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+ol {
+    margin: 10px 0 20px;
+    padding-left: 20px;
+}
+
+ol li {
+    margin: 5px 0;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    color: #1abc9c;
+}
+
+h2, h3 {
+    color: #3498db;
+    text-align: left;
+}
+
+/* List Styles */
+ol[type="1"] {
+    list-style-type: decimal;
+}
+
+ol[type="1"] li {
+    font-size: 0.95rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1, h2, h3 {
+        text-align: center;
+    }
+
+    ol li {
+        font-size: 0.9rem;
+    }
+}
